@@ -1,0 +1,50 @@
+-Construir los siguientes endpoints para ser utilizados desde las vistas:
+    - /api/items?q=:query
+     devuelve items
+    - /api/items/:id
+    devuelve un item por id.
+
+1- Disponibilizar una ruta /api que haga la busqueda. 
+
+Node.
+Framework basado en javascript que nos permite crear rapido
+y facil un servicio. 
+
+Requisitos : 
+Tener instalado Node. 
+https://nodejs.org/es/
+
+1 - npm init iniciamos un proyecto
+
+Este comando crea el package.json en donde se van a listar
+las dependencias del proyecto. Es decir, los plugins que vamos a utilizar.
+
+Ademas, el package.json nos deja definir ciertos comandos que podemos ejecutar
+desde la consola.
+
+Cuando iniciamos el proyecto en node, node lee el package.sjon y va a ejecutar el 
+archivo index.js
+
+En la seccion de script escribimos
+"start" : "node index.js"
+
+2- Instalamos express en mi backend
+
+https://www.npmjs.com/package/express
+
+npm i express
+
+Nos creo una carpeta llamada node_modules donde se va a ubicar 
+el codigo fuente de los plugins instalados.
+
+con el comando npm install se van a instalar
+las dependencias listadas en el archivo package.json.
+
+
+npm i body-parser
+Instalamos body parser para tener disponible el req.body
+
+
+npm i axios
+instalamos axios para poder hcer llamadas a otros servicios.
+
