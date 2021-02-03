@@ -1,0 +1,25 @@
+{
+  "name": "meli-example",
+  "version": "1.0.0",
+  "description": "Challenge para ML",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustinjacob49/meli-example.git"
+  },
+  "author": "agustinjacob49",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustinjacob49/meli-example/issues"
+  },
+  "homepage": "https://github.com/agustinjacob49/meli-example#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
