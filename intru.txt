@@ -48,3 +48,9 @@ Instalamos body parser para tener disponible el req.body
 npm i axios
 instalamos axios para poder hcer llamadas a otros servicios.
 
+npm i nodemon
+
+
+
+en index.js debe estar solo lo basico
+y generico para poder tener el proyecto levantado
